@@ -2,15 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const logo =
-    "https://png2.cleanpng.com/sh/bb37357c0ba0e3528a372b6442d01207/L0KzQYm3UsAzN6J3iZH0aYP2gLBuTfpmf5ZxhNd7eT3qf73rTflkd58ygtdCZXzvdcPCTcViP2U6T6hrN0K4QoW9TsMzQGE1UKU9MUW0R4aAU8k6PWU7UKU3cH7q/kisspng-jewellery-gold-icon-jewellery-5a74576b725246.3280083415175739954683.png";
-
+ 
   return (
     <>
       <nav>
         <header className="text-slate-700 bg-pink-200 container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
           <div className="flex lg:flex">
-            <img className="h-10" src={logo} alt="not load" />
             <p className="items-center text-3xl whitespace-nowrap font-black italic lg:pl-3 pl-2">TJS</p>
           </div>
 

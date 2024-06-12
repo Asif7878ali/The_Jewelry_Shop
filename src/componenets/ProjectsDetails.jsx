@@ -8,7 +8,7 @@ const ProjectsDetails = () => {
         {
           id: 1,
           name: "Vivacious Drop Earrings",
-          image: "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/50D2FFDIZAGA09.jpg",
+          image: "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amV3ZWxyeXxlbnwwfDB8MHx8fDA%3D",
           code: "50D2FFDIZAGA09",
           price: 25099,
         },
@@ -16,8 +16,7 @@ const ProjectsDetails = () => {
         {
             id: 2,
             name: "Violet Winters Hue Chain",
-            image: "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/50D2FFGHMGAA29.jpg",
-            code: "50D2FFGHMGAA29",
+            image: "https://images.unsplash.com/photo-1603561596112-0a132b757442?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amV3ZWxyeXxlbnwwfDB8MHx8fDA%3D",
             price: 15099,
           },
         
@@ -25,8 +24,7 @@ const ProjectsDetails = () => {
           {
             id: 3,
             name: "The Rainbow Hue Earrings",
-            image: "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/50D2I2SNAADA37.jpg",
-            code: "50D2FFDIZA46309",
+            image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             price: 7509,
           },
         
@@ -34,8 +32,7 @@ const ProjectsDetails = () => {
           {
             id: 4,
             name: "Layers Of Amber Necklace",
-            image: "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/50D2I2NCFAAA00.jpg",
-            code: "50D2FFDIZAdg43fd09",
+            image: "https://images.unsplash.com/photo-1588444968576-f8fe92ce56fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGpld2Vscnl8ZW58MHwwfDB8fHww",
             price: 65099,
           },
         
@@ -43,8 +40,7 @@ const ProjectsDetails = () => {
           {
             id: 5,
             name: "Glitterati Of Amber Chain",
-            image: "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/50D2FFGPEAA09.jpg",
-            code: "50D2FFDIZAGAbss09",
+            image: "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGpld2Vscnl8ZW58MHwwfDB8fHww",
             price: 78599,
           },
           
@@ -52,7 +48,7 @@ const ProjectsDetails = () => {
 
   return (
     <>  
-        <div className='lg:flex lg:ml-10'>
+        <div className='lg:flex justify-center'>
        {productList.map((items) => (
          <div key={items.id} className="lg:w-60 lg:h-80 w-[90%] ml-5 mt-3 lg:ml-10 gap-1 cursor-pointer">
          <div className='rounded-md'>

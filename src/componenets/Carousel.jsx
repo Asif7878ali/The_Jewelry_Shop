@@ -4,11 +4,11 @@ import ProjectsDetails from './ProjectsDetails.jsx'
 
 const Carousel = () => {
   const images = [
-    "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/the-italian-connection-desktop.jpg",
-    "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/bannerdesktop.jpg",
-    "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/bannerdesktopbts.jpg",
-    "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/finefinishdesktopbanner.jpg",
-    "https://staticimg.titan.co.in/Tanishq/Banners/thejoyofdressing/images/crescendodesktopbanner.jpg",
+    "https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGpld2Vscnl8ZW58MHwwfDB8fHww",
+    "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGpld2Vscnl8ZW58MHwwfDB8fHww",
+    "https://images.unsplash.com/photo-1585960622850-ed33c41d6418?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amV3ZWxyeXxlbnwwfDB8MHx8fDA%3D",
+    "https://images.unsplash.com/photo-1531995811006-35cb42e1a022?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amV3ZWxyeXxlbnwwfDB8MHx8fDA%3D",
+    "https://plus.unsplash.com/premium_photo-1674748384572-4bfba72773c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8amV3ZWxyeXxlbnwwfDB8MHx8fDA%3D",
   ];
 
   const [activeItem, setActiveItem] = useState(0);
@@ -36,7 +36,7 @@ const Carousel = () => {
   }, [activeItem, handleNextClick]);
   return (
     <>
-      <div className="relative w-full">
+      <div className="relative w-[91%] mt-3 lg:ml-20">
        
         <div className="relative lg:h-96 overflow-hidden rounded-lg md:h-96 h-60">
           {images.map((item, index) => (
